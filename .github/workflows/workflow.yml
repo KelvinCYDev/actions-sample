@@ -1,6 +1,6 @@
 name: Model Release Workflow
 
-on: [push]
+on: [push, workflow_dispatch]
 
 jobs:
   build:
